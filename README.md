@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 PricePulse
 
-## Getting Started
+AI-powered price tracking web application that monitors product prices and helps users make smarter buying decisions.
 
-First, run the development server:
+🔗 **Live Demo:** https://pricepulse-ten.vercel.app  
+📂 **GitHub:** https://github.com/NavneetPrasad1709/pricepulse  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+PricePulse is a full-stack SaaS-style application built using Next.js 14 and Supabase.  
+Users can monitor product prices and receive alerts when their target price is reached.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project demonstrates:
 
-## Learn More
+- Full-stack development
+- Server-side scraping
+- Authentication & authorization
+- Secure environment variable handling
+- Cloud deployment (Vercel)
+- Modern React architecture (App Router)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Frontend
+- Next.js 14 (App Router)
+- React 18
+- Tailwind CSS
 
-## Deploy on Vercel
+### Backend
+- Next.js API Routes
+- Node.js runtime
+- Cheerio (for scraping)
+- Axios
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Database & Auth
+- Supabase
+- PostgreSQL
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Deployment
+- Vercel (Production)
+- Environment variables management
+
+---
+
+## 🔥 Key Features
+
+- ✅ Product price tracking
+- ✅ Modern responsive UI
+- ✅ Secure Supabase authentication
+- ✅ Server-side logic handling
+- ✅ Production deployment ready architecture
+- ✅ ESLint + TypeScript configured
+
+---
+
+## 🏗 Architecture
+
+Client (React UI)  
+⬇  
+Next.js API Routes (Server Runtime)  
+⬇  
+Supabase (Database + Auth)  
+
+Scraping runs server-side using Cheerio to prevent client exposure.
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file:
