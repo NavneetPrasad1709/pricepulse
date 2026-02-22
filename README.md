@@ -1,74 +1,72 @@
-# 🚀 PricePulse
+# 📊 PricePulse – Real-Time Product Price Tracker
 
-AI-powered price tracking web application that monitors product prices and helps users make smarter buying decisions.
+PricePulse is a full-stack price tracking application that monitors product prices and sends instant alerts when the target price is reached.
 
-🔗 **Live Demo:** https://pricepulse-ten.vercel.app  
-📂 **GitHub:** https://github.com/NavneetPrasad1709/pricepulse  
-
----
-
-## 📌 Overview
-
-PricePulse is a full-stack SaaS-style application built using Next.js 14 and Supabase.  
-Users can monitor product prices and receive alerts when their target price is reached.
-
-This project demonstrates:
-
-- Full-stack development
-- Server-side scraping
-- Authentication & authorization
-- Secure environment variable handling
-- Cloud deployment (Vercel)
-- Modern React architecture (App Router)
+Built using a modern production-ready stack with authentication, server-side scraping, and cloud deployment.
 
 ---
 
-## 🛠 Tech Stack
+## 🚀 Live Demo
+
+🔗 Live App: (Add your deployed link)  
+📂 GitHub Repository: (Add repo link)
+
+---
+
+## ✨ Key Features
+
+- 📡 Real-time product price tracking
+- 🎯 Custom target price alerts
+- 🔐 Secure authentication with Supabase Auth
+- 🕵️ Server-side web scraping using Cheerio
+- 🗃 PostgreSQL database storage
+- ☁️ Cloud deployment on Vercel
+- 📱 Fully responsive modern UI
+
+---
+
+## 🛠️ Tech Stack
 
 ### Frontend
 - Next.js 14 (App Router)
-- React 18
+- TypeScript / JavaScript
 - Tailwind CSS
 
-### Backend
-- Next.js API Routes
-- Node.js runtime
-- Cheerio (for scraping)
-- Axios
+### Backend / APIs
+- Next.js Server Actions / API Routes
+- Cheerio (Server-side scraping)
 
-### Database & Auth
-- Supabase
-- PostgreSQL
+### Authentication
+- Supabase Auth
+
+### Database
+- PostgreSQL (via Supabase)
 
 ### Deployment
-- Vercel (Production)
-- Environment variables management
+- Vercel
 
 ---
 
-## 🔥 Key Features
+## 🧠 What This Project Demonstrates
 
-- ✅ Product price tracking
-- ✅ Modern responsive UI
-- ✅ Secure Supabase authentication
-- ✅ Server-side logic handling
-- ✅ Production deployment ready architecture
-- ✅ ESLint + TypeScript configured
+PricePulse showcases my ability to:
 
----
-
-## 🏗 Architecture
-
-Client (React UI)  
-⬇  
-Next.js API Routes (Server Runtime)  
-⬇  
-Supabase (Database + Auth)  
-
-Scraping runs server-side using Cheerio to prevent client exposure.
+- Build full-stack applications with modern architecture
+- Implement server-side scraping pipelines
+- Handle asynchronous background logic
+- Design relational database schemas
+- Integrate authentication into production apps
+- Deploy scalable cloud-ready systems
+- Build responsive, performance-focused UI
 
 ---
 
-## ⚙️ Environment Variables
+## 🏗️ Application Flow
 
-Create a `.env.local` file:
+1️⃣ User signs up / logs in via Supabase Auth  
+2️⃣ User adds product URL + target price  
+3️⃣ Server fetches product data using Cheerio  
+4️⃣ Latest price stored in PostgreSQL  
+5️⃣ If price ≤ target → alert triggered  
+
+---
